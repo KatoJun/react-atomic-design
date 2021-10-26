@@ -4,7 +4,7 @@ import { UserProvider } from "./components/providers/UserProvider";
 export default function App() {
   return (
     <UserProvider>
-      <Router />;
+      <Router />
     </UserProvider>
   );
 }
