@@ -6,6 +6,7 @@ import { UserCard } from "./components/organisms/user/UserCard";
 import { HeaderOnly } from "./components/templates/HeaderOnly";
 import "./styles.css";
 import { BrowserRouter } from "react-router-dom";
+import { DefaultLayout } from "./components/templates/DefaultLayout";
 
 export default function App() {
   const user = {
@@ -21,13 +22,13 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <HeaderOnly>
+      <DefaultLayout>
         <PrimaryButton>テスト</PrimaryButton>
         <SecondaryButton>検索</SecondaryButton>
         <br />
         <SearchInput />
         <UserCard user={user} />
-      </HeaderOnly>
+      </DefaultLayout>
     </BrowserRouter>
   );
 }
