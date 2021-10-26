@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Card } from "../../atoms/cards/Card";
+import { Card } from "../../atoms/card/Card";
 import { UserIconWithName } from "../../molecules/user/UserIconWithName";
 
 export const UserCard = (props) => {

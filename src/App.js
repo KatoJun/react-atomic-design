@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import { PrimaryButton } from "./components/atoms/buttons/PrimaryButton";
-import { SecondaryButton } from "./components/atoms/buttons/SecondaryButton";
+import { PrimaryButton } from "./components/atoms/button/PrimaryButton";
+import { SecondaryButton } from "./components/atoms/button/SecondaryButton";
 import { SearchInput } from "./components/molecules/SearchInput";
 import { UserCard } from "./components/organisms/user/UserCard";
 import { HeaderOnly } from "./components/templates/HeaderOnly";
